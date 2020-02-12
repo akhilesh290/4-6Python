@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: coral;
+}
+
+b {
+    display: block;
+    height: 100px;
+    text-align: center;
+}

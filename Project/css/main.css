@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    background-color: lavender;
+}
+
+.navbar {
+    width: 100%;
+
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.navbar,
+.logo,
+.nav-list,
+.nav-item {
+    display: inline-block;
+}
+
+.nav-list {
+    width: calc(100% - 100px);
+    text-align: end;
+    margin: 0px;
+}
+
+.nav-item {
+    padding: 10px
+}
+
+.nav-item:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.nav-item>a {
+    color: inherit;
+}

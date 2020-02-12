@@ -14,6 +14,139 @@
 } */
 
 
-input[type="text"] {
+/* input[type="text"] {
     background-color: crimson;
+} */
+
+
+/* * {
+    color: aquamarine;
+} */
+
+/* psuedo class */
+/* p:hover {
+    background-color: brown;
+    color: white;
 }
+
+input:focus {
+    background-color: cadetblue;
+}
+
+div:active {
+    background-color: chartreuse;
+}
+
+li:first-child {
+    color: chartreuse;
+}
+
+li:last-child {
+    color: chocolate;
+}
+
+li:nth-child(3n) {
+    background-color: coral;
+} */
+
+
+
+/* psuedo elements */
+/* input::placeholder {
+    color: red;
+}
+
+div::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+div::first-line {
+    background-color: seashell;
+}
+
+
+.quote::before {
+    content: '\201C';
+    font-size: 60px;
+    color: slateblue;
+}
+
+.quote::after {
+    content: '\201D';
+    font-size: 60px;
+    color: slateblue;
+} */
+
+/* boxmodel */
+
+/* .box {
+    background-color: thistle;
+    width: 100%;
+    height: 200px;
+    padding: 10px 30px 20px;
+    border: 5px dashed black;
+    margin: 20px 0 30px auto;
+    box-sizing: border-box;
+} */
+
+/* combinators */
+/* .combo p {
+    color: tomato;
+} */
+/* .combo>p {
+    color: tomato;
+} */
+
+/* 
+.combo>section>section>p {
+    color: violet;
+} */
+/* .combo>section p {
+    color: violet;
+} */
+
+/* h1~p {
+    color: violet;
+} */
+
+/* priority or specificity  */
+input {
+    background-color: violet;
+}
+
+body>input {
+    background-color: chartreuse;
+}
+
+.para {
+    background-color: chartreuse;
+}
+
+.combo>section>section>.para {
+    background-color: coral;
+}
+
+/* input {
+    background-color: blue;
+}
+
+input {
+    background-color: cadetblue;
+} */
+
+/* input[type="text"] {
+    background-color: wheat;
+}
+
+#one {
+    background-color: yellow;
+}
+
+.one {
+    background-color: yellowgreen;
+}
+
+* {
+    background-color: black;
+} */
