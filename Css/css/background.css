@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.back {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  border: 10px dashed black;
+  background-image: url("../img/white-radishes-709825.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+}
