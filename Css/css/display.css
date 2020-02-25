@@ -19,14 +19,14 @@ b {
 
 .flex > div {
   width: 200px;
-
+  height: 200px;
   background-color: lightsalmon;
   font-size: 50px;
   color: aliceblue;
 }
 .flex > div:nth-child(2n) {
   background-color: lawngreen;
-  align-self: center;
+  /* align-self: center; */
 }
 .flex {
   display: flex;

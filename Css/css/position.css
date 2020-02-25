@@ -1,0 +1,43 @@
+html {
+  height: 2000px;
+  padding: 50px;
+  background-color: white;
+}
+
+body {
+  margin: 0px;
+  background-color: orange;
+  padding: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.position {
+  border: 5px solid black;
+  background-color: papayawhip;
+  padding: 50px;
+}
+
+.position > div {
+  margin: 10px;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  border: 5px solid white;
+  position: fixed;
+}
+
+.position > div:first-child {
+  background-color: indianred;
+  z-index: 999999;
+}
+.position > div:nth-child(2) {
+  width: 300px;
+  background-color: lawngreen;
+  z-index: 1;
+}
+.position > div:last-child {
+  width: 500px;
+}
