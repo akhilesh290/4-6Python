@@ -1,0 +1,21 @@
+Grid
+    .container->.row->col
+
+    col-{breakpoint}-{total columns}
+
+    total columns==> 1-12
+
+    justify-content-{start,end,center,between,around}
+
+    align-items-{start,end,center,stretch}
+
+    align-self-{start,end,center,stretch}
+
+
+Utilities
+
+    colors:
+        text-{color}
+        bg-{color}
+        btn-{color}
+        border-{color}
